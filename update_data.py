@@ -20,5 +20,5 @@ for name, url in funds.items():
     datas.to_json('./data/%s.yml' % name, orient="records")
 
 
-# chemin vers la date: $.[*].Date
-# chemin vers la clôture: $.[*].['Chart Price']
+# path to date: $.[*].Date
+# path to price: $.[*].['Chart Price']
